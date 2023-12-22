@@ -28,7 +28,6 @@ int main(){
         }
         cout << endl;
     }
-    
-    cout << tolower('0');
+
     return 0;
 }
