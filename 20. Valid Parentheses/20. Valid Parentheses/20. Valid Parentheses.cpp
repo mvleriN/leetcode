@@ -14,7 +14,7 @@ int main() {
 			s.push(c);
 		}
 		else {
-			if (!s.empty() && abs(c - s.top() <= 2)) {
+			if (!s.empty() && abs(c - s.top()) <= 2) {
 				s.pop();
 			}
 			else {
